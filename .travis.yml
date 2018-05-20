@@ -1,0 +1,18 @@
+sudo: required
+
+language: generic
+
+before_install:
+  - echo 'before install'
+
+install:
+  - echo 'install'
+
+after_install:
+  - echo 'after install'
+
+script:
+  - echo 'script'
+
+after_success:
+  - echo 'after success'
